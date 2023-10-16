@@ -13,12 +13,14 @@ import { createUserWithEmailAndPassword,
 import { useContext, useEffect } from "react";
 import { useState } from "react";
 import { createContext } from "react";
-import API_KEY from "../../secret"
+
 
 
 
 const firebaseConfig = {
-  apiKey:API_KEY,
+  
+  
+  apiKey:"AIzaSyD6wKF-8Q7e7fOax6RlqRnL1Frpm63NutI",
   authDomain: "dn3-stream-e-comm.firebaseapp.com",
   projectId: "dn3-stream-e-comm",
   storageBucket: "dn3-stream-e-comm.appspot.com",
